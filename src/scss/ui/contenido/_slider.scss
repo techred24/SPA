@@ -13,4 +13,15 @@
     &__imagen {
         width: 100%;
     }
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: v.$blanco;
+    }
+    .swiper-pagination-bullet {
+        background-color: v.$blanco;
+        opacity: .5;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: v.$primario;
+    }
 }
